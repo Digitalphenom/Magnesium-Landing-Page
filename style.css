@@ -1,26 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:900,400)
+;
+@import url(https://fonts.googleapis.com/css?family=Lato:900,400,black)
+;
 *{
     padding: 0;
-    margin: 0;
+    margin: 0px;
+
 }
-.headerSection{
-    width: 100%;
-    height: 500px;
-    background-image: url('images/heroimage.png');
-    background-position: 100% 100%;
-    background-attachment: scroll;
-    background-size:cover;
-  }
+body {
+    font-family: Poppins;
+   
+}
   .navSection{
       width: 100%;
       height: 50px;
-      display:flex;
-      flex-direction:row;
-      align-items: center;
-      justify-content: center;
+      font-family: Lato;
+      font-size: 400;
+      background-color: rgb(0, 0, 0);
   }
   .navContainer{
       width: 960px;
-      height: 50px;   }
+      height: 50px;
+      margin: auto;
+    }
   .navWrapper{
       height: 50px;
       color:white;
@@ -43,4 +45,284 @@
         margin-top: 10px;
         color:white;
         border-radius: 3px;
+        cursor: pointer;
+        font-size: 15px;
+        
     }
+    .navWrapper li{
+        list-style: none;
+        font-size: 26px;
+    }
+    .headerSection{
+        width: 100%;
+        height: 500px;
+        background-image: url('images/heroimage.png');
+        background-position: 100% 100%;
+        background-attachment: scroll;
+        background-size:cover;     
+        display: flex;
+        flex-direction: row;
+        justify-content: center;        
+
+    }
+    
+    .headerContainer{
+        height: 500px;
+        width: 960px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;       
+    }
+    .headerWrapper h1{
+        color: white;
+        font-size: 56px;
+        font-family:Poppins;
+        font-weight:400;
+        line-height:72px;
+    }
+    .headerWrapper p{
+        color: #c4c4c4;
+        font-size: 18px;
+        font-family:lato;
+        font-weight:400;
+        width: 360px;
+    }
+    .headerWrapper{
+        width: 500px;
+        height:360px;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-left: 40px;
+
+    }
+    .headerCta {
+        background-color:#5A4FF3;
+        border: #5A4FF3;
+        height: 50px;
+        width: 180px;
+        margin-top: 10px;
+        color:white;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 0.6px ;
+        
+    }
+    .subHeroSection {
+        height:1000px;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    .subHeroContainer {
+        height:900px;
+        width:960px;
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .leftSH {
+        height: 500px;
+        width: 430px;
+        padding-right:20px;
+        margin: 30px;
+    }
+    .leftSH h2{
+        width:400px;
+        font-size: 36px;
+    }
+    .leftSH p{
+        font-size:16px;
+        padding-top:12px;
+    }
+    .leftSH ul {
+        padding:20px;
+        padding-left:30px;
+        text-transform: capitalize;
+        font-family: Lato;
+        font-size: 18px;;
+    }
+    
+    .material-icons{
+        color:#5A4FF3;
+    }
+    .rightSH{
+        height:800px;
+        width:450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .symptomGraphWrapper {
+        display: flex;            
+        background-color: #f1f0fa;
+        font-family: lato;
+        padding:20px;
+        width:460px;
+        border-radius: 20px;
+        border-width: 0px 0px 0px 17px;
+        border-style: solid;
+        border-color: #dad8f9;
+        
+
+    }
+    .symptomGraphWrapper h3 {
+        font-size: 32px;
+    }
+    .symptomGraphWrapper p {
+        font-size: 16px;
+    }
+    .leftGraph {
+        height:500px;
+        width:420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right:20px;
+    }        border-color: #dad8f9;
+
+    .rightGraph {
+        height:500px;
+        width:400px;
+        display:flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    .bodySection {
+        height:1400px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background-color: burlywood;
+
+    }
+    .bodyContainer {
+        height:1300px;
+        width:960px;
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+  
+    }
+    .leftbody {
+        width:300px;
+        height:500px;
+        background-color: cadetblue;
+
+    }
+    .rightBody {
+        width:300px;
+        height:500px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 1000px){
+        .subHeroSection {
+            height:1180px;
+            width:100%;
+            margin-left: auto;
+            margin-right: auto;        }
+    
+        .subHeroContainer {
+            height:1100px;
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:space-between;
+            
+        }
+        .leftSH {
+            width:80%;
+            height:600px;
+        }
+        .rightSH{
+            height:400px;
+            width:90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;                }
+        .symptomGraphWrapper {
+            height: 360px;
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            background-color: #f1f0fa;
+            border-left:17px;
+            border-right:0px;
+            border-top:0px;
+            border-bottom:0px;
+            margin-top: -80px;
+            border-color: #dad8f9;
+            border-style: solid;
+            font-family: lato;
+            width:90%;
+            border-radius: 20px;
+
+        }
+        .leftGraph {
+            height:360px;
+            width:400px;
+            padding:10px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content:center;
+            align-items: space-between;
+            
+
+        }
+        .rightGraph {
+            height:360px;
+            width:400px;
+            padding:10px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content:center;
+            
+        }
+        .leftSH h2{
+            width:100%;
+            font-size: 36px;
+        }
+        .rightSH h3{
+            width:100%;
+            font-size: 32px;
+            margin: top 20px;
+        }
+        .rightSH p{
+            width:100%;
+            font-size: 15px;
+        }
+    
+
+
+
+
+
+
+
+
+
