@@ -8,8 +8,8 @@
 
 }
 body {
-    font-family: Poppins;
-   
+    font-family: Poppins;   
+    color: ;
 }
   .navSection{
       width: 100%;
@@ -136,9 +136,11 @@ body {
     .leftSH h2{
         width:400px;
         font-size: 36px;
+        line-height: 45px;
     }
     .leftSH p{
         font-size:16px;
+        line-height: 26px;
         padding-top:12px;
     }
     .leftSH ul {
@@ -153,14 +155,15 @@ body {
         color:#5A4FF3;
     }
     .rightSH{
-        height:800px;
+        height:860px;
         width:450px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content:flex-end;
     }
     .symptomGraphWrapper {
-        display: flex;            
+        display: flex;
+        flex-direction: row;            
         background-color: #f1f0fa;
         font-family: lato;
         padding:20px;
@@ -169,32 +172,33 @@ body {
         border-width: 0px 0px 0px 17px;
         border-style: solid;
         border-color: #dad8f9;
-        
-
     }
+    /* border-color: rgb(152, 152, 221) */
     .symptomGraphWrapper h3 {
         font-size: 32px;
     }
     .symptomGraphWrapper p {
-        font-size: 16px;
+        
+        font-size: 15px;
+        color: rgb(44, 44, 44);
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .leftGraph {
         height:500px;
-        width:420px;
+        width:350px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         margin-right:20px;
-    }        border-color: #dad8f9;
-
+    }        
+    
     .rightGraph {
         height:500px;
-        width:400px;
+        width:350px;
         display:flex;
         flex-direction: column;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
 
     }
     .bodySection {
@@ -203,38 +207,191 @@ body {
         display: flex;
         flex-direction: column;
         align-items:center;
-        background-color: burlywood;
 
     }
     .bodyContainer {
         height:1300px;
-        width:960px;
-        background-color: aqua;
-        display: flex;
-        flex-direction: row;
+        width:1000px;
+        display:flex;
+        flex-direction:row;
+        justify-content: center; 
   
     }
     .leftbody {
-        width:300px;
-        height:500px;
-        background-color: cadetblue;
+        width:500px;
+        height:1300px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
 
     }
+    #magSup {
+        
+        background-color: cornflowerblue;
+        height:400px;
+    }
+    .testimonialWrapper {
+        width:360px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        font-family:lato;
+        font-size:15px;
+        border-color: #dad8f9;
+        margin-right:20px;
+        padding:20px;
+        border-color:#b8b7c7;
+        border-style: solid;
+        border-width:1.5px;
+        border-radius: 20px;
+    }
+    .testimonialWrapper p { 
+        line-height: 24px;
+        font-size: 14px;
+        padding-top:10px;
+        color: #272727;
+    }
+    .testimonialWrapper h3 {
+        font-weight: 400;
+        font-size:26px;
+        text-align: center;
+    }
+    .testimonialLogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content:flex-end;
+        
+    }
+    .testimonialContentWrapper img {
+        height:22px;
+    }
+    hr {
+        background-color: #d3d3d3;
+        height: 1px;
+        border: none;
+        
+        
+    }
+
+    .dateContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .dateContent  h4{
+        margin-right:20px ;
+        }
+    #amazonLogo {
+        width:200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .rightBody {
-        width:300px;
+        width:500px;
         height:500px;
 
+
+    }
+    .rightBody h2 {
+        font-size: 36px;
+        width:540px
+    }
+    .rightBody h3 {
+        font-size: 22px;
+        font-weight:400;
+    }
+    .rightBody p {
+        padding-top:20px;
+        line-height: 26px;
+    }
+    .bodyGraph {
+        
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 16px;
+        font-family: lato;
+        height:270px;
+        width:500px;
+        background-color:#f1f0fa;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        border-width: 0px 0px 0px 17px;
+        border-style: solid;
+        border-color: #dad8f9;
+
+    }
+    .rightBody ul {
+        list-style-type: none ;
+        padding-top:10px;
+        padding-left:10px;
+        height:240px;
+    }
+    .g1 ul{
+        height:230px;
+        width:120px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .g2 ul{
+        height:230px;
+        width:140px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .g3 ul{
+        height:230px;
+        width:140px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-between;
+        padding: 20px;
     }
 
+    .bottomTestimonialWrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    .testimonialWrapperB {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 500px;
+        height:80px;
 
+    }
+    .testimonialWrapperB p {
+        padding: 15px;
+        border-radius: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #c4c4c4;
+        }
+    .testimonialWrapperB img {
+        height:28px;
+        margin-bottom: 1px;
+    }
 
-
-
-
-
-
-
-
+    #womenPhoto {
+        height: 120px;
+        margin-right: 20px;
+    }
 
 
     @media screen and (max-width: 1000px){
@@ -242,7 +399,8 @@ body {
             height:1180px;
             width:100%;
             margin-left: auto;
-            margin-right: auto;        }
+            margin-right: auto;
+        }
     
         .subHeroContainer {
             height:1100px;
@@ -316,13 +474,5 @@ body {
             width:100%;
             font-size: 15px;
         }
-    
-
-
-
-
-
-
-
-
-
+        
+}
