@@ -111,7 +111,7 @@ body {
         
     }
     .subHeroSection {
-        height:1000px;
+        height:960px;
         width:100%;
         margin-left: auto;
         margin-right: auto;
@@ -202,7 +202,7 @@ body {
 
     }
     .bodySection {
-        height:1400px;
+        height:1360px;
         width:100%;
         display: flex;
         flex-direction: column;
@@ -228,13 +228,14 @@ body {
     #magSup {
         
         background-color: cornflowerblue;
-        height:400px;
+        height:320px;
     }
     .testimonialWrapper {
-        width:360px;
+        height: 900px;
+        width:300px;
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content:space-evenly;
         font-family:lato;
         font-size:15px;
         border-color: #dad8f9;
@@ -244,6 +245,8 @@ body {
         border-style: solid;
         border-width:1.5px;
         border-radius: 20px;
+        padding: 30px;
+
     }
     .testimonialWrapper p { 
         line-height: 24px;
@@ -260,7 +263,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content:flex-end;
+        align-content:flex-start;
         
     }
     .testimonialContentWrapper img {
@@ -270,8 +273,6 @@ body {
         background-color: #d3d3d3;
         height: 1px;
         border: none;
-        
-        
     }
 
     .dateContent {
@@ -282,8 +283,11 @@ body {
     }
     .dateContent  h4{
         margin-right:20px ;
+        color: rgb(12, 12, 12);
+        font-weight: 400;
         }
     #amazonLogo {
+        height: 100px;
         width:200px;
         margin-left: auto;
         margin-right: auto;
@@ -392,7 +396,203 @@ body {
         height: 120px;
         margin-right: 20px;
     }
+    .bodySectionTwo {
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bodyContainerTwo{
+        height: 1200px;
+        width: 1100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bodyWrapperTwo{
+        margin-top: 0px;
+        height: 860px;
+        width: 1100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .headLine h2{
+        text-transform: capitalize;
+        font-weight: 400;
+        margin: auto;
+        text-align: center;
+        width: 800px;
+        font-size: 38px;
 
+    }
+    .leftBodyTwo{
+        height: 720px;
+        width: 600px;
+    }
+    .leftBodyTwo ul{
+        padding-left: 20px;
+    }
+    .rightBodyTwo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:space-around;
+        height: 800px;
+        width: 300px;
+
+    }
+    #infoGraph{
+        height: 480px;
+        
+    }
+    #supplementFact{
+        height: 300px;
+        margin-top: 30px;
+        
+    }
+    .wrappingUpSection {
+        height: 520px;
+        width: 100%;
+        background-image: url('/images/women-sleeping-min-gradient\ 2.png');
+        background-position:center ;
+        background-attachment:scroll;
+        background-size:cover;     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;   
+    }
+    .wrappingUpContainer {
+        height: 500px;
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+    }
+    .wrappingUpContainer div{
+        width: 600px;
+    }
+    .wrappingUpContainer h2{
+        font-size: 36px;
+        color: white;
+
+    }
+    .wrappingUpContainer p{
+        width: 500px;
+        color: rgb(201, 201, 201);
+    }
+    .closeSection{
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .closeContainer {
+        height:1000px;
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+
+
+    }
+    .closeContainer h2 {
+        width: 500px;
+        text-align: center;
+        font-weight: 400;
+
+        font-size: 36px;
+        text-transform: capitalize;
+
+    }
+    .testimonialWrapper img {
+        height: 22px;
+    }
+    .rightClose p {
+        font-weight: 400;
+        font-size: 16px;
+
+    }
+    .rightClose {
+            width: 600px;
+            font-size: 16px;
+
+    }
+    .bottomCloseContainer{
+        height: 500px;
+        width: 690px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .bottomCloseContainer h3{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: lato;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .leftBC {
+        width: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .rightBC img{
+        width: 140px;
+        margin: 20px;
+        text-align: center;
+
+        
+
+    }
+    .rightBC {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rightBC p {
+       text-align: center;
+       font-size: 12px;
+
+    }
+    #easyReturnsImg {
+        width: 440px;
+        margin-top: 30px;
+    }
+    .CtaButton{
+        height: 150px;
+        width: 230px;
+        background-color:#5A4FF3 ;
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        margin-top:30px;
+
+    }
+    #timerFunctionContainer{
+        height: 300px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    #timerFunctionContainer p{
+        font-size: 46px;
+    }
+    #timerMinutes p{
+        font-size: 56px;
+        
+    }
 
     @media screen and (max-width: 1000px){
         .subHeroSection {
