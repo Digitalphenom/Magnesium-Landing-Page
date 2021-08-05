@@ -110,8 +110,8 @@ body {
 	justify-content: center;
 }
 .subHeroContainer {
-	height: 900px;
-	width: 1200px;
+	height: 1000px;
+	width: 90vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -120,7 +120,8 @@ body {
 	height: 840px;
 	width: 600px;
 	padding-right: 20px;
-	margin: 80px;
+	margin: 0px;
+	margin-top: 100px;
 }
 .leftSH h2 {
 	width: 500px;
@@ -160,7 +161,7 @@ body {
 	background-color: #f1f0fa;
 	font-family: lato;
 	padding: 20px;
-	width: 430px;
+	width: 33vw;
 	height: 620px;
 	border-radius: 20px;
 	border-width: 0px 0px 0px 17px;
@@ -169,10 +170,10 @@ body {
 }
 /* border-color: rgb(152, 152, 221) */
 .symptomGraphWrapper h3 {
-	font-size: 32px;
+	font-size: 28px;
 }
 .symptomGraphWrapper p {
-	font-size: 15px;
+	font-size: 14.5px;
 	color: rgb(44, 44, 44);
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -203,7 +204,7 @@ body {
 }
 .bodyContainer {
 	height: 1700px;
-	width: 1200px;
+	width: 90vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -224,7 +225,7 @@ body {
 	flex-direction: column;
 	justify-content: space-evenly;
 	font-family: lato;
-	font-size: 15px;
+	font-size: 15.5px;
 	border-color: #dad8f9;
 	background-color: #f8f7fa;
 	border-color: #b8b7c7;
@@ -235,8 +236,8 @@ body {
 	font-style: italic;
 }
 .testimonialWrapper p {
-	line-height: 26px;
-	font-size: 14px;
+	line-height: 30px;
+	font-size: 15px;
 	padding-top: 10px;
 	color: #363636;
 }
@@ -288,8 +289,8 @@ hr {
 	margin-left: 120px;
 }
 .rightBody h2 {
-	font-size: 38px;
-	width: 570px;
+	font-size: 36px;
+	width: 52vw;
 	font-weight: 400;
 }
 .rightBody h3 {
@@ -303,13 +304,15 @@ hr {
 }
 .bodyGraph {
 	text-transform: capitalize;
- 	margin-top: 30px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	padding: 20px;
-	font-size: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
 	font-family: lato;
 	height: 270px;
-	width: 500px;
+	min-width: 4vw;
+
 	background-color: #f1f0fa;
 	border-radius: 20px;
 	display: flex;
@@ -321,10 +324,11 @@ hr {
 	border-style: solid;
 	border-color: #dad8f9;
 }
+
 .rightBody ul {
 	list-style-type: none;
-	padding-top: 10px;
-	padding-left: 10px;
+	padding-top: 8px;
+	padding-left: 8px;
 	height: 240px;
 }
 .g1 ul {
@@ -360,6 +364,8 @@ hr {
 	flex-direction: row;
 	margin-top: 60px;
 	font-style: italic;
+	background-color: pnk;
+	width: 50vw;
 }
 .testimonialWrapperB {
 	display: flex;
@@ -393,14 +399,14 @@ hr {
 }
 .bodyContainerTwo {
 	height: 1200px;
-	width: 1150px;
+	width: 90vw;
 	display: flex;
 	flex-direction: column;
 }
 .bodyWrapperTwo {
 	margin-top: 0px;
 	height: 860px;
-	width: 1100px;
+	width: 90vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -415,8 +421,8 @@ hr {
 	font-size: 38px;
 }
 .leftBodyTwo {
-	height: 720px;
-	width: 600px;
+	height: 790px;
+	width: 660px;
 }
 .leftBodyTwo ul {
 	padding-left: 20px;
@@ -436,8 +442,8 @@ hr {
 	flex-direction: column;
 	justify-content: space-around;
 	height: 800px;
-	width: 300px;
-	margin-left: 90px;
+	width: 400px;
+	margin-left: 40px;
 }
 #infoGraph {
 	height: 480px;
@@ -446,6 +452,11 @@ hr {
 	height: 300px;
 	margin-top: 30px;
 }
+
+/* begin wrapping up
+
+*/
+
 .wrappingUpSection {
 	height: 520px;
 	width: 100%;
@@ -460,7 +471,7 @@ hr {
 }
 .wrappingUpContainer {
 	height: 500px;
-	width: 1100px;
+	width: 90vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -488,7 +499,7 @@ hr {
 }
 .closeContainer {
 	height: 1000px;
-	width: 1200px;
+	width: 90vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -513,13 +524,13 @@ hr {
 	line-height: 26px;
 }
 .rightClose {
-	width: 600px;
+	width: 440px;
 	font-size: 16px;
-	padding-left: 99px;
+	padding-left: 20px;
 }
 .bottomCloseContainer {
 	height: 500px;
-	width: 690px;
+	width: 50vw;
 	display: flex;
 	flex-direction: row;
 	align-content: space-between;
@@ -533,7 +544,7 @@ hr {
 	text-align: center;
 }
 .leftBC {
-	width: 500px;
+	width: 270px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -549,14 +560,19 @@ hr {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 300px;
+	margin-top: 80px;
 }
 .rightBC p {
 	text-align: center;
 	font-size: 12px;
+	margin-top: 2px;
+	width: 240px;
 }
 #easyReturnsImg {
 	width: 440px;
-	margin-top: 30px;
+	height: 600px;
+	margin-top: 50px;
 }
 .CtaButton {
 	height: 55px;
@@ -643,17 +659,18 @@ hr {
 	/* begin subhero  */
 
 	.subHeroSection {
-		height: 1180px;
+		height: 1200px;
 		width: 100%;
 	}
 
 	.subHeroContainer {
-		height: 1420px;
+		height: 1520px;
 		width: 760px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
+		margin-top: -60px;
 	}
 	.leftSH {
 		width: 90%;
@@ -661,9 +678,13 @@ hr {
 	}
 	.rightSH {
 		height: 500px;
-		width: 90%;
+		width: 70vw;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		
+		margin-top: 80px;
+		
 	}
 	.symptomGraphWrapper {
 		height: 660px;
@@ -776,7 +797,6 @@ hr {
 		height: 1200px;
 		display: flex;
 		flex-direction: column;
-		
 	}
 	.rightBody h2 {
 		font-size: 33px;
@@ -913,9 +933,12 @@ hr {
 	}
 	.closeContainer {
 		height: 1000px;
-		width: 800px;
+		width: 90vw;
 		display: flex;
-		margin-top: 60px;
+		flex-direction: row;
+	
+		align-items: center;
+		margin-top: 100px;
 	}
 	.closeContainer h2 {
 		width: 500px;
@@ -935,15 +958,14 @@ hr {
 		line-height: 26px;
 	}
 	.rightClose {
-		margin-left: -80px;
-		width: 500px;
+		width: 52vw;
 		font-size: 16px;
 		display: flex;
 		flex-direction: column;
 	}
 	.bottomCloseContainer {
-		height: 700px;
-		width: 470px;
+		height: 400px;
+		width: 52vw;
 		display: flex;
 		flex-direction: column;
 		align-content: space-between;
@@ -967,6 +989,7 @@ hr {
 		display: none;
 		flex-direction: row;
 		align-items: center;
+		
 	}
 
 	.rightBC img {
@@ -979,7 +1002,8 @@ hr {
 		width: 290px;
 	}
 	#easyReturnsImg {
-		width: 440px;
+		width: 500px;
+		height: 100px;
 		margin-top: 50px;
 	}
 	.CtaButton {
@@ -1058,23 +1082,20 @@ hr {
 	/* header section  */
 	.headerSection {
 		width: 100%;
-		height: 400px;
+		height: 370px;
 		background-image: url('images/heroimage.png');
 		background-position: 100% 100%;
 		background-attachment: scroll;
 		background-size: cover;
-		display: flex;
-		flex-direction: column;
-
-		align-content: flex-start;
+		
 	}
-
+	
 	.headerContainer {
 		height: 300px;
-		width: 660px;
+		width: 90vw;
+		margin-top:30px;
 	}
 	.headerWrapper {
-		max-width: 90vw;
 		height: 360px;
 		margin: 20px;
 	}
@@ -1111,11 +1132,12 @@ hr {
 	/* begin subhero  */
 
 	.subHeroSection {
-		height: 1130px;
+		height: 1480px;
 		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		margin-top: 40px;
 	}
 
 	.subHeroContainer {
@@ -1206,7 +1228,7 @@ hr {
 	/* begin body section  */
 
 	.bodySection {
-		margin-top: 400px;
+		margin-top: 0px;
 		height: 2100px;
 		width: 100%;
 	}
@@ -1215,7 +1237,7 @@ hr {
 		width: 660px;
 		display: flex;
 		flex-direction: column-reverse;
-		align-content: center; 
+		align-content: center;
 		align-items: center;
 	}
 	.leftbody {
@@ -1259,8 +1281,6 @@ hr {
 		width: 500px;
 	}
 
-
-
 	.dateContent {
 		display: flex;
 		flex-direction: row;
@@ -1281,7 +1301,7 @@ hr {
 
 	.rightBody {
 		max-width: 90vw;
-		height: 100vh;
+		height: 1300px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -1356,11 +1376,12 @@ hr {
 		justify-content: space-between;
 		padding: 20px;
 	}
-	
+
 	.bottomTestimonialWrapper {
 		display: flex;
 		flex-direction: row;
 		margin-top: 60px;
+		width: 70vw;
 	}
 	.testimonialWrapperB {
 		display: flex;
@@ -1380,14 +1401,13 @@ hr {
 		height: 28px;
 		margin-bottom: 1px;
 	}
-	
+
 	#womenPhoto {
 		height: 120px;
 		margin-right: 20px;
 	}
 	/* begin second body  */
 
-	
 	.bodySectionTwo {
 		height: 1400px;
 		width: 100%;
@@ -1404,7 +1424,7 @@ hr {
 		align-items: center;
 		align-content: space-between;
 	}
-	.headLine h2{
+	.headLine h2 {
 		font-size: 29px;
 		width: 90vw;
 	}
@@ -1424,8 +1444,7 @@ hr {
 		display: flex;
 		flex-direction: row;
 		margin-left: 0px !important;
-		margin-top: 30px ;
-
+		margin-top: 30px;
 	}
 
 	#infoGraph {
@@ -1456,7 +1475,6 @@ hr {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		
 	}
 	.closeContainer {
 		height: 2000px;
@@ -1476,7 +1494,7 @@ hr {
 		margin-left: 50px;
 	}
 	.testimonialWrapper img {
-		height: 22px; 
+		height: 22px;
 	}
 	.rightClose p {
 		font-weight: 400;
@@ -1486,7 +1504,6 @@ hr {
 		line-height: 26px;
 	}
 	.rightClose {
-		
 		width: 600px;
 		font-size: 16px;
 		padding-left: 0px !important;
@@ -1531,7 +1548,7 @@ hr {
 
 	.rightBC p {
 		text-align: center;
-		font-size: 12px;	
+		font-size: 12px;
 		width: 290px;
 	}
 	#easyReturnsImg {
@@ -1563,7 +1580,7 @@ hr {
 		font-size: 26px;
 		color: #b8b7c7;
 		margin-top: 0px;
-	margin-top: 0px;
+		margin-top: 0px;
 	}
 }
 @media screen and (max-width: 665px) {
@@ -1622,7 +1639,6 @@ hr {
 		display: flex;
 		flex-direction: column;
 		align-content: flex-start;
-		
 	}
 
 	.headerContainer {
@@ -1684,7 +1700,7 @@ hr {
 	}
 	.leftSH {
 		height: 840px;
-		max-width: 90vw; 
+		max-width: 90vw;
 	}
 	.leftSH h2 {
 		width: 90vw;
@@ -1759,7 +1775,6 @@ hr {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		
 	}
 
 	/* begin body section  */
@@ -1768,16 +1783,14 @@ hr {
 		margin-top: 0px !important;
 		height: 2640px;
 		width: 100%;
-		
 	}
 	.bodyContainer {
 		height: 2400px;
 		width: 90vw;
 		display: flex;
 		flex-direction: column-reverse;
-		align-content: center; 
+		align-content: center;
 		align-items: center;
-		
 	}
 	.leftbody {
 		width: 90vw;
@@ -1791,8 +1804,7 @@ hr {
 		display: none;
 	}
 	.testimonialWrapper {
-		
-		height:900px;
+		height: 900px;
 		width: 300px;
 		font-family: lato;
 		font-size: 13px;
@@ -1806,7 +1818,6 @@ hr {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		
 	}
 	.testimonialWrapper p {
 		line-height: 28px;
@@ -1852,7 +1863,6 @@ hr {
 		width: 94vw;
 		font-weight: 400;
 		text-align: center;
-
 	}
 	.rightBody h3 {
 		font-size: 18px;
@@ -1897,7 +1907,7 @@ hr {
 		flex-direction: column;
 		align-content: space-between;
 		justify-content: space-between;
-		padding:10px;
+		padding: 10px;
 	}
 	.g2 ul {
 		height: 230px;
@@ -1917,7 +1927,7 @@ hr {
 		justify-content: space-between;
 		padding: 10px;
 	}
-	
+
 	.bottomTestimonialWrapper {
 		display: flex;
 		flex-direction: row;
@@ -1941,15 +1951,13 @@ hr {
 		height: 28px;
 		margin-bottom: 1px;
 	}
-	
+
 	#womenPhoto {
 		height: 120px;
 		margin-right: 20px;
 	}
 	/* begin second body  */
 
-
-	
 	.bodySectionTwo {
 		height: 1400px;
 		width: 100%;
@@ -1966,7 +1974,7 @@ hr {
 		align-items: center;
 		align-content: space-between;
 	}
-	.headLine h2{
+	.headLine h2 {
 		font-size: 32px;
 		width: 90vw;
 	}
@@ -1990,19 +1998,14 @@ hr {
 		display: flex;
 		flex-direction: row;
 		margin-left: 0px !important;
-		margin-top: 100px ;
-
+		margin-top: 100px;
 	}
 
 	#infoGraph {
-		
 		display: none;
-		
 	}
 	#supplementFact {
-		
 		height: 280px;
-		
 	}
 	/* begin wrapping up */
 	.wrappingUpSection {
@@ -2010,15 +2013,14 @@ hr {
 	}
 	.wrappingUpContainer {
 		height: 600px;
-		width: 90vw ;
+		width: 90vw;
 	}
-	
+
 	.wrappingUpContainer div {
 		height: 400px;
-		width: 80vw ;
+		width: 80vw;
 	}
-	
-	
+
 	.wrappingUpContainer h2 {
 		font-size: 32px;
 		width: 430px;
@@ -2028,17 +2030,12 @@ hr {
 		width: 430px;
 	}
 
-
-	
-	
 	/* begin close */
 	.closeSection {
 		height: 2220px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		 
-		
 	}
 	.closeContainer {
 		height: 1600px;
@@ -2056,10 +2053,9 @@ hr {
 		margin-top: 19px;
 		margin-left: auto;
 		margin-right: auto;
-		
 	}
 	.testimonialWrapper img {
-		height: 22px; 
+		height: 22px;
 	}
 	.rightClose p {
 		font-weight: 400;
@@ -2077,12 +2073,11 @@ hr {
 		padding-left: 0px !important;
 		margin-left: 0px !important;
 	}
-	.rightClose div{
+	.rightClose div {
 		width: 90vw;
 		font-size: 16px;
 		padding-left: 0px !important;
 		margin-left: 0px !important;
-		
 	}
 	.bottomCloseContainer {
 		height: 00px;
@@ -2143,9 +2138,7 @@ hr {
 		font-size: 26px;
 		color: #b8b7c7;
 		text-align: center;
-		
 	}
-
 }
 
 @media screen and (max-width: 665px) {
@@ -2204,7 +2197,6 @@ hr {
 		display: flex;
 		flex-direction: column;
 		align-content: flex-start;
-		
 	}
 
 	.headerContainer {
@@ -2232,7 +2224,6 @@ hr {
 		font-weight: 400;
 		width: 320px;
 		margin-top: 10px;
-		
 	}
 	.headerCta {
 		background-color: #5a4ff3;
@@ -2266,7 +2257,7 @@ hr {
 	}
 	.leftSH {
 		height: 840px;
-		max-width: 90vw; 
+		max-width: 90vw;
 	}
 	.leftSH h2 {
 		width: 90vw;
@@ -2341,7 +2332,6 @@ hr {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		
 	}
 
 	/* begin body section  */
@@ -2350,16 +2340,14 @@ hr {
 		margin-top: 0px !important;
 		height: 2640px;
 		width: 100%;
-		
 	}
 	.bodyContainer {
 		height: 2400px;
 		width: 90vw;
 		display: flex;
 		flex-direction: column-reverse;
-		align-content: center; 
+		align-content: center;
 		align-items: center;
-		
 	}
 	.leftbody {
 		width: 90vw;
@@ -2373,8 +2361,7 @@ hr {
 		display: none;
 	}
 	.testimonialWrapper {
-		
-		height:900px;
+		height: 900px;
 		width: 300px;
 		font-family: lato;
 		font-size: 13px;
@@ -2388,7 +2375,6 @@ hr {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		
 	}
 	.testimonialWrapper p {
 		line-height: 28px;
@@ -2434,7 +2420,6 @@ hr {
 		width: 94vw;
 		font-weight: 400;
 		text-align: center;
-
 	}
 	.rightBody h3 {
 		font-size: 18px;
@@ -2479,7 +2464,7 @@ hr {
 		flex-direction: column;
 		align-content: space-between;
 		justify-content: space-between;
-		padding:10px;
+		padding: 10px;
 	}
 	.g2 ul {
 		height: 230px;
@@ -2499,7 +2484,7 @@ hr {
 		justify-content: space-between;
 		padding: 10px;
 	}
-	
+
 	.bottomTestimonialWrapper {
 		display: flex;
 		flex-direction: row;
@@ -2523,15 +2508,13 @@ hr {
 		height: 28px;
 		margin-bottom: 1px;
 	}
-	
+
 	#womenPhoto {
 		height: 120px;
 		margin-right: 20px;
 	}
 	/* begin second body  */
 
-
-	
 	.bodySectionTwo {
 		height: 1400px;
 		width: 100%;
@@ -2548,7 +2531,7 @@ hr {
 		align-items: center;
 		align-content: space-between;
 	}
-	.headLine h2{
+	.headLine h2 {
 		font-size: 32px;
 		width: 90vw;
 	}
@@ -2572,19 +2555,14 @@ hr {
 		display: flex;
 		flex-direction: row;
 		margin-left: 0px !important;
-		margin-top: 100px ;
-
+		margin-top: 100px;
 	}
 
 	#infoGraph {
-		
 		display: none;
-		
 	}
 	#supplementFact {
-		
 		height: 280px;
-		
 	}
 	/* begin wrapping up */
 	.wrappingUpSection {
@@ -2592,15 +2570,14 @@ hr {
 	}
 	.wrappingUpContainer {
 		height: 600px;
-		width: 90vw ;
+		width: 90vw;
 	}
-	
+
 	.wrappingUpContainer div {
 		height: 400px;
-		width: 80vw ;
+		width: 80vw;
 	}
-	
-	
+
 	.wrappingUpContainer h2 {
 		font-size: 32px;
 		width: 430px;
@@ -2610,17 +2587,12 @@ hr {
 		width: 430px;
 	}
 
-
-	
-	
 	/* begin close */
 	.closeSection {
 		height: 2220px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		 
-		
 	}
 	.closeContainer {
 		height: 1600px;
@@ -2638,10 +2610,9 @@ hr {
 		margin-top: 19px;
 		margin-left: auto;
 		margin-right: auto;
-		
 	}
 	.testimonialWrapper img {
-		height: 22px; 
+		height: 22px;
 	}
 	.rightClose p {
 		font-weight: 400;
@@ -2659,12 +2630,11 @@ hr {
 		padding-left: 0px !important;
 		margin-left: 0px !important;
 	}
-	.rightClose div{
+	.rightClose div {
 		width: 90vw;
 		font-size: 16px;
 		padding-left: 0px !important;
 		margin-left: 0px !important;
-		
 	}
 	.bottomCloseContainer {
 		height: 00px;
@@ -2725,9 +2695,7 @@ hr {
 		font-size: 26px;
 		color: #b8b7c7;
 		text-align: center;
-		
 	}
-	
 }
 @media screen and (max-width: 479px) {
 	.navSection {
@@ -2737,8 +2705,6 @@ hr {
 		font-size: 400;
 		background-color: rgb(0, 0, 0);
 		display: flex;
-		
-		
 	}
 
 	.navLink {
@@ -2757,7 +2723,6 @@ hr {
 		display: none;
 	}
 
-
 	/* header section  */
 	.headerSection {
 		width: 100%;
@@ -2769,9 +2734,8 @@ hr {
 		display: flex;
 		flex-direction: column;
 		align-content: flex-start;
-		
 	}
-	
+
 	.headerContainer {
 		height: 300px;
 		width: 90vw;
@@ -2789,7 +2753,6 @@ hr {
 		line-height: 42px;
 		width: 90vw;
 		text-align: center;
-		
 	}
 	.headerWrapper p {
 		color: #dfdfdf;
@@ -2802,7 +2765,6 @@ hr {
 		background-color: turquose;
 		text-align: center;
 		background-color: #02011660;
-	
 	}
 	.headerCta {
 		background-color: #5a4ff3;
@@ -2816,9 +2778,9 @@ hr {
 		font-weight: 900;
 		letter-spacing: 0.6px;
 	}
-	
+
 	/* begin subhero  */
-	
+
 	.subHeroSection {
 		height: 1680px;
 		width: 100%;
@@ -2827,7 +2789,7 @@ hr {
 		justify-content: center;
 		margin-top: 40px;
 	}
-	
+
 	.subHeroContainer {
 		height: 1540px;
 		width: 90vw;
@@ -2837,7 +2799,7 @@ hr {
 	}
 	.leftSH {
 		height: 840px;
-		max-width: 90vw; 
+		max-width: 90vw;
 	}
 	.leftSH h2 {
 		width: 90vw;
@@ -2860,7 +2822,7 @@ hr {
 		font-weight: 700;
 		line-height: 27px;
 	}
-	
+
 	.material-icons {
 		color: #5a4ff3;
 	}
@@ -2885,7 +2847,6 @@ hr {
 		border-width: 0px 0px 0px 17px;
 		border-style: solid;
 		border-color: #dad8f9;
-		
 	}
 	/* border-color: rgb(152, 152, 221) */
 	.symptomGraphWrapper h3 {
@@ -2906,32 +2867,29 @@ hr {
 		justify-content: center;
 		margin-right: 20px;
 	}
-	
+
 	.rightGraph {
 		height: 500px;
 		width: 350px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		
 	}
-	
+
 	/* begin body section  */
-	
+
 	.bodySection {
 		margin-top: 0px !important;
 		height: 2640px;
 		width: 100%;
-		
 	}
 	.bodyContainer {
 		height: 2400px;
 		width: 90vw;
 		display: flex;
 		flex-direction: column-reverse;
-		align-content: center; 
+		align-content: center;
 		align-items: center;
-		
 	}
 	.leftbody {
 		width: 90vw;
@@ -2945,8 +2903,7 @@ hr {
 		display: none;
 	}
 	.testimonialWrapper {
-		
-		height:900px;
+		height: 900px;
 		width: 300px;
 		font-family: lato;
 		margin-top: 100px;
@@ -2961,7 +2918,6 @@ hr {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		
 	}
 	.testimonialWrapper p {
 		line-height: 28px;
@@ -2975,7 +2931,7 @@ hr {
 		text-align: center;
 		width: 300px;
 	}
-	
+
 	.dateContent {
 		display: flex;
 		flex-direction: row;
@@ -2993,7 +2949,7 @@ hr {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+
 	.rightBody {
 		max-width: 90vw;
 		height: 1700px;
@@ -3008,19 +2964,18 @@ hr {
 		font-weight: 400;
 		text-align: center;
 		line-height: 34px;
-	
 	}
 	.rightBody h3 {
 		font-size: 18px;
 		font-weight: 400;
 		text-align: center;
-		padding-top:20px ;
+		padding-top: 20px;
 	}
 	.rightBody p {
 		padding-top: 20px;
 		line-height: 26px;
 		color: rgb(51, 51, 51);
-		text-align:left;
+		text-align: left;
 		font-size: 14px;
 	}
 	.bodyGraph {
@@ -3076,7 +3031,7 @@ hr {
 		justify-content: space-between;
 		padding-left: 40px;
 	}
-	
+
 	.bottomTestimonialWrapper {
 		display: flex;
 		flex-direction: row;
@@ -3100,15 +3055,13 @@ hr {
 		height: 28px;
 		margin-bottom: 1px;
 	}
-	
+
 	#womenPhoto {
 		height: 100px;
-		margin-right:10px;
+		margin-right: 10px;
 	}
 	/* begin second body  */
-	
-	
-	
+
 	.bodySectionTwo {
 		height: 1400px;
 		width: 100%;
@@ -3116,7 +3069,7 @@ hr {
 		flex-direction: column;
 		align-items: center;
 		margin-top: 90px;
-		font-size:14px ;
+		font-size: 14px;
 	}
 	.bodyContainerTwo {
 		height: 1200px;
@@ -3126,12 +3079,12 @@ hr {
 		align-items: center;
 		align-content: space-between;
 	}
-	.headLine h2{
+	.headLine h2 {
 		font-size: 28px;
 		width: 90vw;
 		margin-bottom: 30px;
 	}
-	
+
 	.bodyWrapperTwo {
 		margin-top: 20px !important;
 		height: 1240px;
@@ -3141,7 +3094,7 @@ hr {
 		justify-content: center;
 		align-items: center;
 	}
-	
+
 	.leftBodyTwo {
 		width: 90vw;
 	}
@@ -3151,21 +3104,17 @@ hr {
 		display: flex;
 		flex-direction: row;
 		margin-left: 0px !important;
-		margin-top: 260px ;
-	
+		margin-top: 260px;
 	}
-	
+
 	#infoGraph {
-		
 		display: none;
-		
 	}
 	#supplementFact {
 		width: 90vw;
 		height: 260px;
-		margin-left:auto ;
+		margin-left: auto;
 		margin-right: auto;
-		
 	}
 	/* begin wrapping up */
 	.wrappingUpSection {
@@ -3174,19 +3123,18 @@ hr {
 	}
 	.wrappingUpContainer {
 		height: 570px;
-		width: 90vw ;
+		width: 90vw;
 		display: flex;
 		flex-direction: column;
-		align-items:flex-start;
+		align-items: flex-start;
 		justify-content: start;
 	}
-	
+
 	.wrappingUpContainer div {
 		height: 400px;
-		width: 80vw ;
+		width: 80vw;
 	}
-	
-	
+
 	.wrappingUpContainer h2 {
 		font-size: 28px;
 		width: 80vw;
@@ -3196,18 +3144,13 @@ hr {
 		font-size: 15px;
 		width: 80vw;
 	}
-	
-	
-	
-	
+
 	/* begin close */
 	.closeSection {
 		height: 2220px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		 
-		
 	}
 	.closeContainer {
 		height: 1600px;
@@ -3226,10 +3169,9 @@ hr {
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 28px;
-		
 	}
 	.testimonialWrapper img {
-		height: 22px; 
+		height: 22px;
 	}
 	.rightClose p {
 		font-weight: 400;
@@ -3238,21 +3180,17 @@ hr {
 		color: rgb(51, 51, 51);
 		line-height: 26px;
 		width: 90vw;
-		
 	}
 	.rightClose {
 		width: 90vw;
 		font-size: 16px;
-	
 	}
-	.rightClose div{
+	.rightClose div {
 		width: 90vw;
 		font-size: 16px;
 		margin-top: 40px;
-		
 	}
-	
-	
+
 	.leftBC {
 		width: 90vw;
 		display: flex;
@@ -3260,15 +3198,13 @@ hr {
 		justify-content: flex-start;
 		align-items: center;
 	}
-	.leftBC p{
+	.leftBC p {
 		margin-top: -40px !important;
-		
 	}
 	.rightBC {
 		display: none;
-		
 	}
-	
+
 	#easyReturnsImg {
 		width: 90vw;
 		margin-top: 50px;
@@ -3281,8 +3217,7 @@ hr {
 		font-size: 20px;
 		font-weight: 900;
 		width: 90vw;
-		margin-bottom: 
-		45px;
+		margin-bottom: 45px;
 	}
 	#timerFunctionContainer {
 		display: none;
@@ -3297,12 +3232,10 @@ hr {
 		font-size: 46px;
 		text-align: center;
 		height: 60px;
-
 	}
 	#timerMinutes p {
 		font-size: 26px;
 		color: #b8b7c7;
 		text-align: center;
-		
 	}
 }
