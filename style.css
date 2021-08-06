@@ -2196,7 +2196,8 @@ hr {
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
-		align-content: flex-start;
+		align-content: center;
+		align-items: center;
 	}
 
 	.headerContainer {
@@ -2204,16 +2205,16 @@ hr {
 		width: 90vw;
 	}
 	.headerWrapper {
-		max-width: 90vw;
+		max-width: 340px;
 		height: 360px;
 		margin: 20px;
 	}
 	.headerWrapper h1 {
 		color: white;
-		font-size: 38px;
+		font-size: 40px;
 		font-family: Poppins;
 		font-weight: 400;
-		line-height: 47px;
+		line-height: 49px;
 		width: 340px;
 	}
 	.headerWrapper p {
@@ -2263,7 +2264,7 @@ hr {
 		width: 90vw;
 		font-size: 34px;
 		line-height: 52px;
-		text-align: center;
+		text-align: left;
 	}
 	.leftSH p {
 		font-size: 14px;
@@ -2733,7 +2734,9 @@ hr {
 		background-size: cover;
 		display: flex;
 		flex-direction: column;
-		align-content: flex-start;
+		align-content: center;
+		align-items: center
+		;
 	}
 
 	.headerContainer {
@@ -2760,7 +2763,7 @@ hr {
 		line-height: 24px;
 		font-family: lato;
 		font-weight: 400;
-		width: 94vw;
+		width: 76vw;
 		margin-top: 10px;
 		background-color: turquose;
 		text-align: center;
@@ -2770,7 +2773,7 @@ hr {
 		background-color: #5a4ff3;
 		border: #5a4ff3;
 		height: 40px;
-		width: 90vw;
+		width: 80vw;
 		margin-top: 10px;
 		color: white;
 		border-radius: 10px;
@@ -2787,7 +2790,7 @@ hr {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		margin-top: 40px;
+		margin-top: 80px;
 	}
 
 	.subHeroContainer {
@@ -2841,7 +2844,7 @@ hr {
 		background-color: #f1f0fa;
 		font-family: lato;
 		padding: 10px;
-		max-width: 90vw;
+		max-width: 78vw;
 		height: 720px;
 		border-radius: 20px;
 		border-width: 0px 0px 0px 17px;
@@ -2904,7 +2907,7 @@ hr {
 	}
 	.testimonialWrapper {
 		height: 900px;
-		width: 300px;
+		width: 72vw;
 		font-family: lato;
 		margin-top: 100px;
 		font-size: 13px;
@@ -2983,7 +2986,7 @@ hr {
 		margin-top: 30px;
 		margin-bottom: 30px;
 		padding: 20px;
-		font-size: 14px;
+		font-size: 13px;
 		font-family: lato;
 		height: 270px;
 		width: 80vw;
@@ -3001,7 +3004,7 @@ hr {
 	.rightBody ul {
 		list-style-type: none;
 		padding-top: 4px;
-		padding-left: 4px;
+		padding-left: 2px;
 		height: 240px;
 	}
 	.g1 ul {
@@ -3011,7 +3014,7 @@ hr {
 		flex-direction: column;
 		align-content: space-between;
 		justify-content: space-between;
-		padding-left: 10px;
+		padding-left: 2px;
 	}
 	.g2 ul {
 		height: 230px;
@@ -3020,7 +3023,7 @@ hr {
 		flex-direction: column;
 		align-content: space-between;
 		justify-content: space-between;
-		padding-left: 40px;
+		padding-left: 20px;
 	}
 	.g3 ul {
 		height: 230px;
@@ -3036,6 +3039,7 @@ hr {
 		display: flex;
 		flex-direction: row;
 		margin-top: 140px;
+		width: 90vw;
 	}
 	.testimonialWrapperB {
 		display: flex;
@@ -3120,6 +3124,7 @@ hr {
 	.wrappingUpSection {
 		margin-top: 200px;
 		height: 580px;
+
 	}
 	.wrappingUpContainer {
 		height: 570px;
@@ -3127,17 +3132,22 @@ hr {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		justify-content: start;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.wrappingUpContainer div {
-		height: 400px;
-		width: 80vw;
+		height: 500px;
+		width: 70vw;
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.wrappingUpContainer h2 {
 		font-size: 28px;
-		width: 80vw;
+		width: 90vw;
 		text-align: center;
 	}
 	.wrappingUpContainer p {
@@ -3162,7 +3172,7 @@ hr {
 		margin-top: 0px;
 	}
 	.closeContainer h2 {
-		width: 360px;
+		width: 90vw;
 		font-weight: 400;
 		text-transform: capitalize;
 		margin-top: 19px;
@@ -3208,6 +3218,7 @@ hr {
 	#easyReturnsImg {
 		width: 90vw;
 		margin-top: 50px;
+		height: 70px;
 	}
 	.CtaButton {
 		height: 45px;
